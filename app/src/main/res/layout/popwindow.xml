@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80CBC4">
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="0dp"
+        android:background="#FE2CFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:background="@drawable/credits"
+        android:text="Aplikacja stworzona przez: \nMaciej Leśniak \n\nNumer albumu: 42821 \nGrupa: 2.1\n\nAplikacja dla ludzi chcących\n odpocząć.\nNie jestem wybredny,\nzadowole się oceną: " />
+
+</RelativeLayout>
